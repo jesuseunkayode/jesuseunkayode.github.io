@@ -1,8 +1,17 @@
 @import url(http:)
+  * {
+   box-sizing: border-box;
+}
+
+html {
+ margin: 0;
+ padding:0;
+}
 
 body {
   color: #555;
   margin: 0;
+  padding: 0;
   font-family: 'Montserrat',sans-serif;
 }
 
