@@ -1,71 +1,79 @@
- <!doctype html>
+<!doctype html>
 <html>
-
 <head>
-  <title> Welcome to Jesuseun Kayode personal website</title>
- <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" type="text/css" href="style.css">
+<title> Welcome to Jesuseun Kayode Personal Website </title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="assets/style.css">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+<meta name="author" content="Jesuseun Kayode" />
+<meta name="description" content="Web designer, web developer, website developer, website master" />
+<meta name="keywords" content="web design, web programmer"/>
+<meta name="charset" lang="en-us"/>
 </head>
-
 <body>
-<div id="header">
-<div class="container">
-<a id="header-title" href="index.html"> Jesuseun Kayode </a>
+<header id="header">
+<h1> Jesuseun Kayode</h1>
+<nav id="navbar">
+  <ul>
+    <li><a href="#jump_about">About</a></li>
+    <li><a href="#jump_stack"> Stacks</a></li>
+    <li><a href="#"> Projects</a></li>
+    <li><a href="#jump_contact">Contact</a></li>
+  </ul>
+</nav>
+</header>
+<main>
+  <section class="hero">
+  <img  class="profile_photo" src="assets/images/kayode.png" alt="Jesuseun kayode profile picture">
+  <section class="profile_text">
+   <h2>Hello I'm Jesuseun Kayode</h2>
+   <p> I am a front end web developer currently based in Lagos Nigeria.</p> </section>
+ </section>
 
-<ul id="header-nav">
-<li> <a href="about.html"> About us </a> </li>
-<li> <a href="mailto:kayode.jesuseun@hotmail.com"> Contact us </a></li>
-</ul> </div>
-</div>
+  <section class="bit_about" id="jump_about">
+   <h2> A bit about me</h2>
+   <p>Jesuseun Kayode is a web developer who is passionate about making beautiful web applications accessible, functional and
+     responsive website for everyone, enthusiastic and skilled professional with substantial technical expertise in designing and developing web applications.
+   He is a web developer & property manager at whatproperty.ng and a loving father with beautiful wife and adorable daughter.When he is not coding, you can find me rendering real estate management service, property marketing service, reading books on technologies, learning on how to become a better web developer and relaxing with my family.</p>
+ </section>
 
-<div id="content">
-<div class="post-container">
-<div class="post">
-<div class="post-author">
-<img src="kayode.JPG" width="100" height="100">
-<span> Jesuseun Owolabi Kayode </span>
-</div>
-<p class="post-date"> <em>Today</em></p>
-<h3 class="post-title"> Becoming a web developer </h3>
-<div class="post-content">
-<p> If somebody would have told me a week go that i would be able to make a website, i would not have believed them. </P>
-<p> Just a few days later, i came across Mimo and started to work on a real <strong>blog.</strong> </p>
-</div>
+  <article class="project-div">
+    <h2 class="project-head"> My Built Projects </h2>
+    <section id="projecting-div">
+      <section class="sub-project-div"> <img class="tribute-img" src="assets/images/tribute.png"/></section>
+      <section class="sub-project-div"> <img class="trombone-img" src="assets/images/trombone.png" /></section>
+      <section class="sub-project-div"> <img class="survey-img" src="assets/images/tribute.png" /></section>
+      <section class="sub-project-div"> <img class="tower-img" src="assets/images/tribute.png"/></section>
+   </section>
+  </article>
+  <h2 class="stack_header" id="jump_stack">My Tech Stacks </h2>
+  <article id="mystacks">
+   <section class="stack"> Html</section>
+   <section class="stack"> Css</section>
+   <section class="stack"> Javascript</section>
+   <section class="stack"> Jquery</section>
+   <section class="stack"> Bootstrap</section>
+   <section class="stack"> Postgre</section>
+   <section class="stack"> Python</section>
+   <section class="stack"> Django</section>
+  </article>
 
-
-<div class="post">
-<div class="post-author">
-  <img src="kayode.JPG" width="100" height="100">
-  <span> blessing Kayode </span> </div>
-</div>
-
- <p class="post-date"> <em>Next</em></p>
- <h3 class="post-title"> Best time to code </h3>
- <div class="post-content">
-<p> As an uncoming web developer, it is better to dedicate or block time for coding everybody in order to solidify your knowledge</p>
-<p> Develop a schedule and stick with it. keeping coding regardless of the challenges. Dont give up! you are almost mastering the language</p>
- </div>
-</div>
-</div>
-</div>
-</div>
-<div id="footer"> <div class="container">
-<div class="column">
-<h4> My Links</h4>
-<p>
-<a href="https://twitter.com/jesuseunlife">Twitter</a> <br>
-<a href="https://facebook.com/kayodejesuseun">Facebook</a>
-</p>
-</div>
-<div class="column">
-<h4> My Story </h4>
-<p> Hi there! I am an inspiring web developer. </p>
-</div>
-<div class="column">
-<h4> Site map </h4>
-<p> Hi there! I am an inspiring web developer. </p>
-</div>
-</div>
-</div>
+  <article class="contact_page" id="jump_contact">
+   <h2 class="contact-head"> Contact Me </h2>
+   <p>Lets talk about your web projects</p>
+   <form id="contact_form">
+   <input type="text" placeholder="Enter your full name" name="text"> <br/>
+   <input type="text" placeholder="Enter your contact address" name="text"><br>
+   <input type="text" placeholder="Enter your phone number" name="text"><br>
+   <input type="email" placeholder="Enter your active email address" name="text"><br>
+   <input type="text" placeholder="Enter the subject of the project" name="text"> <br/><br/>
+   <textarea placeholder="Kindly describe your project in details"></textarea><br/><br/>
+   <button> Submit </button>
+ </form>
+  </article>
+  <br/> <br/>
+</main>
+<footer>&copy Copyright 2021 <em>Designed and Developed</em> by <em>Jesuseun Kayode</em>. All right reserved <span class="social-handles">Twitter</span><span class="social-handles">Facebook</span><span class="social-handles">Github</span><span class="social-handles">Linkedin</span></footer>
 </body>
 </html>
