@@ -379,6 +379,22 @@ button {
   }
 }
 
+@media (min-width: 375px) and (max-width: 667px) {
+  .profile_photo {
+     width: 250px;
+     height: 250px;
+  }
+   h1 {
+    margin-left: 60px;
+   }
+  
+   ul > li {
+     padding-left:  10px;
+   }
+
+}
+
+
 
 footer {
     display: flex;
