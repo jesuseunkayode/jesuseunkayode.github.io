@@ -422,7 +422,9 @@ footer > p {
 
    footer {
      flex-direction: column;
-     height: 75px;
+     font-size: 12px;
+     height: 90px;
+     padding: 5px 5px 0px 5px;
    }
 
    #mystacks {
