@@ -408,6 +408,25 @@ footer > p {
    ul > li {
      padding-left:  10px;
    }
+   .sub-project-div {
+     margin-top: 20px;
+   }
 
+   .project-head {
+     margin-bottom: 0px;
+   }
+
+   .bit_about > h2 {
+     margin-bottom: 0px;
+   }
+
+   footer {
+     flex-direction: column;
+     height: 75px;
+   }
+
+   #mystacks {
+    height: 330px;
+   }
 }
 
