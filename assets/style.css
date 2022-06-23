@@ -242,7 +242,7 @@ li:hover {
 input[type=text]{
   width: 70%;
   padding: 12px 10px;
-  margin: 8px 0px;
+  margin: 12px 0px;
   box-sizing: border-box;
 }
 
@@ -250,7 +250,7 @@ input[type=text]{
 input[type=email] {
   width: 70%;
   padding: 12px 10px;
-  margin: 8px 0px;
+  margin: 12px 0px;
   box-sizing: border-box;
 }
 
@@ -286,6 +286,62 @@ button {
   font-size: 20px;
   border-radius: 2px solid #00473e;
   cursor: pointer;
+}
+
+
+.name-error {
+   position: absolute;
+   display: none;
+   right: 220px;
+   top: 1595px;
+   color: red;
+   font-size:  14px;
+}
+
+.contact-error {
+  position: absolute;
+  display: none;
+  right: 220px;
+  top: 1662px;
+  color: red;
+  font-size:  14px;
+}
+
+
+.phone-error {
+  position: absolute;
+  display: none;
+  right: 220px;
+  top: 1728px;
+  color: red;
+  font-size:  14px;
+}
+
+.email-error {
+  position: absolute;
+  display: none;
+  right: 220px;
+  top: 1795px;
+  color: red;
+  font-size:  14px;
+}
+
+.subject-error {
+  position: absolute;
+  display: none;
+  right: 220px;
+  top: 1862px;
+  color: red;
+  font-size:  14px;
+}
+
+.project-error {
+  position: absolute;
+  display: none;
+  right: 220px;
+  top: 2092px;
+  color: red;
+  font-size:  14px;
 }
 
 

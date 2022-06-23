@@ -64,12 +64,18 @@
    <h2 class="contact-head"> Contact Me </h2>
    <p>Lets talk about your web projects</p>
    <form id="contact_form">
-   <input type="text" placeholder="Enter your full name" name="text"> <br/>
-   <input type="text" placeholder="Enter your contact address" name="text"><br>
-   <input type="text" placeholder="Enter your phone number" name="text"><br>
-   <input type="email" placeholder="Enter your active email address" name="text"><br>
-   <input type="text" placeholder="Enter the subject of the project" name="text"> <br/><br/>
-   <textarea placeholder="Kindly describe your project in details"></textarea><br/><br/>
+   <input id="name" type="text" placeholder="Enter your full name" name="text"> <br/>
+   <span class="error name-error">Enter your full name</span>
+   <input id="contact" type="text" placeholder="Enter your contact address" name="text"><br>
+   <span class="error contact-error">Enter your contact address</span>
+   <input id="phone" type="text" placeholder="Enter your phone number" name="text"><br>
+   <span class="error phone-error">Enter your phone number</span>
+   <input id="email"  type="email" placeholder="Enter your active email address" name="text"><br>
+   <span class="error email-error">Enter your active and valid address</span>
+   <input id="subject"  type="text" placeholder="Enter the subject of the project" name="text"> <br/><br/>
+   <span class="error subject-error">Enter the subject of your project</span>
+   <textarea id="describe" placeholder="Kindly describe your project in details"></textarea><br/><br/>
+   <span class="error project-error">Describe your project here</span>
    <button> Submit </button>
  </form>
   </article>
@@ -77,4 +83,5 @@
 </main>
 <footer><p>&copy Copyright 2021-2022 <em>Made</em> by <em>Jesuseun Kayode</em>. All right reserved</p> <p><span class="social-handles">Twitter</span><span class="social-handles">Facebook</span><span class="social-handles">Github</span><span class="social-handles">Linkedin</span></p></footer>
 </body>
+<script src="validate.js"></script>
 </html>
