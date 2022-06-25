@@ -29,7 +29,7 @@ form.addEventListener("submit", (event) => {
     contact.style.border = "1px solid red";
   } else {
     errorMsg[1].innerHTML = "";
-    fulName.style.border = "1px solid green";
+    contact.style.border = "1px solid green";
   }
 
   if (phone.value == "") {
@@ -48,5 +48,23 @@ form.addEventListener("submit", (event) => {
   } else {
     errorMsg[3].innerHTML = "";
     email.style.border = "1px solid green";
+  }
+
+  if (subject.value == "") {
+    errorMsg[4].innerHTML = " Enter your subject for your project";
+    errorMsg[4].style.display = "block";
+    subject.style.border = "1px solid red";
+  } else {
+    errorMsg[4].innerHTML = "";
+    subject.style.border = "1px solid green";
+  }
+
+  if (describe.value == "") {
+    errorMsg[5].innerHTML = " Enter your subject for your project";
+    errorMsg[5].style.display = "block";
+    describe.style.border = "1px solid red";
+  } else {
+    errorMsg[5].innerHTML = "";
+    describe.style.border = "1px solid green";
   }
 });
