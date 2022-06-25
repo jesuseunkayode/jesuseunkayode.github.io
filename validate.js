@@ -22,4 +22,31 @@ form.addEventListener("submit", (event) => {
     errorMsg[0].innerHTML = "";
     fulName.style.border = "1px solid green";
   }
+
+  if (contact.value == "") {
+    errorMsg[1].innerHTML = " Enter your contact address";
+    errorMsg[1].style.display = "block";
+    contact.style.border = "1px solid red";
+  } else {
+    errorMsg[1].innerHTML = "";
+    fulName.style.border = "1px solid green";
+  }
+
+  if (phone.value == "") {
+    errorMsg[2].innerHTML = " Enter your phone number";
+    errorMsg[2].style.display = "block";
+    phone.style.border = "1px solid red";
+  } else {
+    errorMsg[2].innerHTML = "";
+    phone.style.border = "1px solid green";
+  }
+
+  if (email.value == "") {
+    errorMsg[3].innerHTML = " Enter your valid email address";
+    errorMsg[3].style.display = "block";
+    email.style.border = "1px solid red";
+  } else {
+    errorMsg[3].innerHTML = "";
+    email.style.border = "1px solid green";
+  }
 });
