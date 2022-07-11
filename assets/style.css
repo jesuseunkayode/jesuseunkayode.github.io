@@ -1,20 +1,17 @@
 * {
   box-sizing: border-box;
-
 }
 
-html, body {
+html,
+body {
   margin: 0;
   padding: 0;
 }
 
-
 main {
-  background-color: #f2f7f5; 
+  background-color: #f2f7f5;
   color: green;
 }
-
-
 
 #header {
   display: flex;
@@ -23,13 +20,11 @@ main {
   background-color: #f2f7f5;
 }
 
-
 h1 {
   margin-left: 100px;
   color: #00473e;
   font-family: Lobster, sans-serif;
 }
-
 
 .profile_text > p {
   font-size: 20px;
@@ -37,29 +32,25 @@ h1 {
   color: #475d5b;
 }
 
-.short-bio{
+.short-bio {
   color: #475d5b;
   font-weight: 100;
 }
-
 
 ul {
   display: flex;
 }
 
-
 ul > li {
-  padding-top:  15px;
+  padding-top: 15px;
   font-size: 22px;
   padding-left: 150px;
 }
-
 
 li {
   list-style: none;
   font-weight: bold;
 }
-
 
 a {
   color: #00473e;
@@ -69,7 +60,6 @@ a {
 li:hover {
   opacity: 0.5;
 }
-
 
 .profile_photo {
   border-radius: 50%;
@@ -87,8 +77,6 @@ li:hover {
 .profile_photo:hover {
   transform: scale(1.1);
 }
-
-
 
 .profile_text {
   margin-top: 120px;
@@ -139,8 +127,6 @@ li:hover {
   font-family: Lobster;
 }
 
-
-
 .project-div {
   border-top: 1px solid #00473e;
 }
@@ -151,30 +137,28 @@ li:hover {
   margin-bottom: 20px;
   align-items: center;
   justify-content: center;
-  
 }
 
 .sub-project-div {
-   width: 20%;
-   height: 300px;
-   border: 2px solid #00473e;
-   margin-right: 25px;
-   cursor: pointer;
-   border-radius: 5px;
+  width: 20%;
+  height: 300px;
+  border: 2px solid #00473e;
+  margin-right: 25px;
+  cursor: pointer;
+  border-radius: 5px;
 }
 
 .sub-project-div:hover {
   transform: scale(1.1);
 }
 
-
-
-.tribute-img, .trombone-img, .survey-img, .tower-img {
-    width: 100%;
-    height: 100%;
+.tribute-img,
+.trombone-img,
+.survey-img,
+.tower-img {
+  width: 100%;
+  height: 100%;
 }
-
-
 
 #mystacks {
   display: flex;
@@ -233,34 +217,30 @@ li:hover {
   font-size: 20px;
 }
 
-
 #contact_form {
   background-color: #f2f7f5;
 }
 
-
-input[type=text]{
+input[type="text"] {
   width: 70%;
   padding: 12px 10px;
   margin: 12px 0px;
   box-sizing: border-box;
 }
 
-
-input[type=email] {
+input[type="email"] {
   width: 70%;
   padding: 12px 10px;
   margin: 12px 0px;
   box-sizing: border-box;
 }
 
-
-input[type=text]:focus{
+input[type="text"]:focus {
   border: 2px solid #00473e;
   outline: none;
 }
 
-input[type=email]:focus{
+input[type="email"]:focus {
   border: 2px solid #00473e;
   outline: none;
 }
@@ -288,14 +268,13 @@ button {
   cursor: pointer;
 }
 
-
 .name-error {
-   position: absolute;
-   display: none;
-   right: 220px;
-   top: 1595px;
-   color: red;
-   font-size:  14px;
+  position: absolute;
+  display: none;
+  right: 220px;
+  top: 1595px;
+  color: red;
+  font-size: 14px;
 }
 
 .contact-error {
@@ -304,9 +283,8 @@ button {
   right: 220px;
   top: 1662px;
   color: red;
-  font-size:  14px;
+  font-size: 14px;
 }
-
 
 .phone-error {
   position: absolute;
@@ -314,7 +292,7 @@ button {
   right: 220px;
   top: 1728px;
   color: red;
-  font-size:  14px;
+  font-size: 14px;
 }
 
 .email-error {
@@ -323,7 +301,7 @@ button {
   right: 220px;
   top: 1788px;
   color: red;
-  font-size:  14px;
+  font-size: 14px;
 }
 
 .subject-error {
@@ -332,7 +310,7 @@ button {
   right: 220px;
   top: 1862px;
   color: red;
-  font-size:  14px;
+  font-size: 14px;
 }
 
 .project-error {
@@ -341,16 +319,36 @@ button {
   right: 220px;
   top: 2083px;
   color: red;
-  font-size:  14px;
+  font-size: 14px;
+}
+
+span {
+  padding-left: 20px;
+}
+
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 20px 5px 0px 20px;
+  background-color: #00473e;
+  color: #f2f7f5;
+  height: 70px;
+}
+
+footer > p {
+  padding-left: 20px;
 }
 
 
-@media (max-width: 650px) {
-   h1 {
-    margin: 15px auto;
-   }
+/* mobile responsiveness code */ 
 
-   ul > li {
+@media (max-width: 650px) {
+  h1 {
+    margin: 15px auto;
+  }
+
+  ul > li {
     padding-top: 0px;
     padding-left: 35px;
     height: auto;
@@ -396,14 +394,14 @@ button {
     margin: 20px 8px 10px 16px;
   }
 
-  input[type=text] {
+  input[type="text"] {
     width: 85%;
     padding: 12px 10px;
     margin: 8px 0px;
     box-sizing: border-box;
   }
 
-  input[type=email] {
+  input[type="email"] {
     width: 85%;
     padding: 12px 10px;
     margin: 8px 0px;
@@ -419,28 +417,6 @@ button {
   }
 }
 
-span {
-  padding-left: 20px;
-}
-
-footer {
-   display: flex;
-   flex-direction: row;
-   justify-content: space-around;
-   padding: 20px 5px 0px 20px;
-   background-color: #00473e;
-   color: #f2f7f5;
-   height: 70px;
-}
-
-footer > p {
-  padding-left: 20px;
-}
-
-
-
-
-
 @media (max-width: 600px) {
   #projecting-div {
     display: grid;
@@ -454,54 +430,50 @@ footer > p {
 
 @media (min-width: 375px) and (max-width: 667px) {
   .profile_photo {
-     width: 250px;
-     height: 250px;
+    width: 250px;
+    height: 250px;
   }
-   h1 {
+  h1 {
     margin-left: 60px;
-   }
-  
-   ul > li {
-     padding-left:  10px;
-   }
-   .sub-project-div {
-     margin-top: 20px;
-   }
-
-   .project-head {
-     margin-bottom: 0px;
-   }
-
-   .bit_about > h2 {
-     margin-bottom: 0px;
-   }
-
-   footer {
-     flex-direction: column;
-     font-size: 12px;
-     height: 90px;
-     padding: 5px 5px 0px 5px;
-   }
-
-   #mystacks {
-    height: 330px;
-   }
-}
-
-
-@media (min-width: 360px) and (max-width: 640px) {
-  .profile_photo {
-     width: 250px;
-     height: 220px;
-     padding-left: 5px;
-     padding-right: 5px;
   }
 
   ul > li {
-     padding-left: 10px;
+    padding-left: 10px;
   }
+  .sub-project-div {
+    margin-top: 20px;
+  }
+
+  .project-head {
+    margin-bottom: 0px;
+  }
+
+  .bit_about > h2 {
+    margin-bottom: 0px;
+  }
+
+  footer {
+    flex-direction: column;
+    font-size: 12px;
+    height: 90px;
+    padding: 5px 5px 0px 5px;
+  }
+
+  #mystacks {
+    height: 330px;
+  }
+}
+
+@media (min-width: 360px) and (max-width: 640px) {
+  .profile_photo {
+    width: 250px;
+    height: 220px;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+
   h1 {
-    margin-left: 70px;
+    margin-left: 0px;
   }
 
   footer > p {
@@ -521,9 +493,24 @@ footer > p {
 
   .social-text {
     padding-left: 15px;
-      
   }
 
- 
+  #mystacks {
+    height: 340px;
+  }
+
+  #navbar {
+    border: 1px solid red;
+  
+  }
+
+  ul > li {
+    padding-left: 0px;
+    margin: 0px;
+  }
+
+  ul {
+     text-align: left;
+  }
 
 }
