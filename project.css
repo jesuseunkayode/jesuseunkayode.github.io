@@ -63,42 +63,57 @@ li:hover {
 }
 
 .completed {
-  border: 1px solid #faae2c;
+  border: 1px solid #00473e;
   width: 20%;
   height: 260px;
-  margin: 10px;
+  margin: 10px 10px 15px 10px;
 }
 
-.tribute-img{
-    border-radius: 50%;
-    max-width: 80%;
-    display: block;
-    margin: 0 auto;
+.tribute-img {
+  border-radius: 50%;
+  max-width: 80%;
+  display: block;
+  margin: 0 auto;
 }
 
 .trombone-img {
-    border-radius: 50%;
-    display: block;
-    max-width: 50%;
-    margin: 10px auto;
+  border-radius: 50%;
+  display: block;
+  max-width: 50%;
+  margin: 10px auto;
 }
-
 
 h4 {
-    text-align: center;
-    margin-top: 0px;
+  text-align: center;
+  margin-top: 0px;
 }
 
- .source-text {
-    text-align: center;
-    margin-top: 0px;
-    margin-bottom: 5px;
+.source-text {
+  text-align: center;
+  margin-top: 0px;
+  margin-bottom: 10px;
+  text-decoration: none;
 }
+
+.source-text > a {
+ background-color: #faae2c;
+ color:  #00473e;
+ padding: 5px;
+ margin-bottom: 10px;
+}
+
 
 .link-text {
-    text-align: center;
-    margin-top: 0px;
-    margin-bottom: px;
+  text-align: center;
+  margin-top: 0px;
+  margin-bottom: 10px;
+}
+
+.link-text > a {
+  color: #faae2c;
+  background-color: #00473e;
+  padding: 5px;
+  margin-bottom: 10px;
 }
 
 
