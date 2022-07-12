@@ -62,11 +62,13 @@ li:hover {
   flex-wrap: wrap;
 }
 
+
+
 .completed {
   border: 1px solid #00473e;
   width: 20%;
-  height: 260px;
-  margin: 10px 10px 15px 10px;
+  height: 280px;
+  margin: 10px 10px 25px 10px;
 }
 
 .tribute-img {
@@ -98,7 +100,7 @@ h4 {
 .source-text {
   text-align: center;
   margin-top: 0px;
-  margin-bottom: 10px;
+  padding-bottom: 7px;
   text-decoration: none;
 }
 
@@ -106,19 +108,19 @@ h4 {
  background-color: #faae2c;
  color:  #00473e;
  padding: 5px;
- margin-bottom: 10px;
+ 
 }
 
 
 .link-text {
   text-align: center;
   margin-top: 0px;
-  margin-bottom: 10px;
+
 }
 
 .link-text > a {
-  color: #faae2c;
-  background-color: #00473e;
+  color:#00473e;
+  border: 1px solid #faae2c;
   padding: 5px;
   margin-bottom: 10px;
 }
