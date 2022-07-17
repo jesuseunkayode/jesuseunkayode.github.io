@@ -90,6 +90,13 @@ li:hover {
   margin: 10px auto;
 }
 
+.roofing-img {
+  border-radius: 50%;
+  display: block;
+  max-width: 50%;
+  margin: 10px auto;
+}
+
 h4 {
   text-align: center;
   margin-top: 0px;
