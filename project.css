@@ -147,3 +147,19 @@ footer > p {
 span {
   padding-left: 20px;
 }
+
+/*mobile responsiveness */
+
+@media (min-width: 486px) and (max-width: 570px) {
+  h1 {
+    padding-left: 30px;
+  }
+
+  ul > li {
+    padding-left: 30px;
+  }
+
+  .completed-project-title {
+    margin-left: 30px;
+  }
+}
