@@ -6,6 +6,8 @@ html,
 body {
   margin: 0;
   padding: 0;
+  min-height: 100%;
+  max-height: 100%;
 }
 
 main {
@@ -340,8 +342,7 @@ footer > p {
   padding-left: 20px;
 }
 
-
-/* mobile responsiveness code */ 
+/* mobile responsiveness code */
 
 @media (max-width: 650px) {
   h1 {
@@ -499,14 +500,31 @@ footer > p {
     height: 340px;
   }
 
-
   ul > li {
     padding-left: 0px;
     margin: 0px;
   }
 
   ul {
-     text-align: left;
+    text-align: left;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 570px) {
+  ul > li {
+    padding-left: 10px;
+    font-size: 16px;
+    padding-top: 10px;
   }
 
+  .profile_photo {
+    max-width: 70%;
+    height: auto;
+  }
+
+  .profile_text {
+    margin-top: 0px;
+    margin-right: 16px;
+    margin-left: 16px;
+  }
 }
