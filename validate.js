@@ -68,3 +68,9 @@ form.addEventListener("submit", (event) => {
     describe.style.border = "1px solid green";
   }
 });
+
+const menuIcon = document.querySelector(".menu");
+const link = document.querySelector(".links");
+menuIcon.addEventListener("click", () => {
+  link.classList.toggle(".show-sidebar");
+});

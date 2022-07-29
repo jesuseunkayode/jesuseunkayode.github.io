@@ -29,28 +29,6 @@ h1 {
   margin-bottom: 0;
 }
 
-#navbar {
-   
-}
-
-.menu {
-  position: absolute;
-  top: 30px;
-  right: 5px;
-  font-size: 22px;
-}
-
-.links {
-   background-color: #00473e;
-   color: white;
-   width: 100%;
-   padding-right: 15px;
-   padding-top: 10px;
-   height: 60px;
-   position: relative;
-   top: -25px;
-   right: 15px;
-}
 
 
 .profile_text > p {
@@ -553,4 +531,30 @@ footer > p {
     margin-right: 16px;
     margin-left: 16px;
   }
+
+  .menu {
+    position: absolute;
+    top: 30px;
+    right: 5px;
+    font-size: 22px;
+  }
+  
+  .links {
+    background-color: #00473e;
+    color: white;
+    width: 100%;
+    padding-right: 15px;
+    padding-top: 10px;
+    height: 60px;
+    position: relative;
+    top: -25px;
+    right: 15px;
+    transform: translate(-100%);
+ }
+
 }
+
+.show-sidebar {
+    transform: translate(0);
+}
+
