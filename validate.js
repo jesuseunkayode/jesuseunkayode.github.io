@@ -72,5 +72,5 @@ form.addEventListener("submit", (event) => {
 const menuIcon = document.querySelector(".menu");
 const link = document.querySelector(".links");
 menuIcon.addEventListener("click", () => {
-  link.classList.toggle(".show-sidebar");
+  link.classList.toggle("show-sidebar");
 });
