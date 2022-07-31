@@ -71,6 +71,18 @@ form.addEventListener("submit", (event) => {
 
 const menuIcon = document.querySelector(".menu");
 const link = document.querySelector(".links");
+const menuClose = document.querySelector(".close-menu");
+
 menuIcon.addEventListener("click", () => {
-  link.classList.toggle("show-sidebar");
+  const showSidebar = link.classList.toggle("show-sidebar");
+  if (showSidebar) {
+    menuIcon.style.visibility = "hidden";
+  }
+  menuClose.style.visibility = "visible";
+});
+
+menuClose.addEventListener("click", () => {
+  link.classList.remove("show-sidebar");
+  menuClose.style.visibility = "hidden";
+  menuIcon.style.visibility = "visible";
 });
